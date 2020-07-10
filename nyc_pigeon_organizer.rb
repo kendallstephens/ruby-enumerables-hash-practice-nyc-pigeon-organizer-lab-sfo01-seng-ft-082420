@@ -11,8 +11,8 @@ final_results = data.each_with_object({}) do |(key, value), final_array|
      end
      final_array[name][key].push(inner_key)
    end
-final_array
-binding.pry  
+end
+end
 end
 
 
